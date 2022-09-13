@@ -1,0 +1,11 @@
+Exercise 5: Take the following Python code that stores a string:
+str 'X-DSPAM-Conf idence:0.8475
+Use find and string slicing to extract the portion of the string after the colon characterand then use the float function to convert the extracted string into a floating point number
+
+str = 'X-DSPAM_Confidence:0.10050805'
+
+index_before_num = str.find(':')
+
+number = float(str[index_before_num+1:])
+
+print(number)
