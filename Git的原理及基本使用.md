@@ -77,7 +77,7 @@ git reset --soft cid    > [回退版本库到制定的commit id, 并且将回退
 git reset --hard cid    > [回退版本库到制定的commit id, 并且同步到工作区和暂存区]
 ```
 * HEAD说明
-HEAD            表示当前版本
+HEAD           表示当前版本
 HEAD^          表示上一个版本
 HEAD^^         表示上上个版本
 HEAD^^^        表示上上上个版本
