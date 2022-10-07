@@ -1,3 +1,5 @@
+# 查阅资料，使用tkinter编写GUI程序界面，在窗口上实时显示当前日期和时间，要求使用多线程编程技术保证应用程序运行时界面仍能响应鼠标的拖动操作。
+
 import tkinter
 from tkinter import*
 import threading
