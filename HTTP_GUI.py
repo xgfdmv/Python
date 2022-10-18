@@ -17,7 +17,6 @@ def handleCalc():
         # QMessageBox.about(window,a)
     mysock.close()
 
-
 app = QApplication([])
 window = QMainWindow()
 window.resize(500, 400)
